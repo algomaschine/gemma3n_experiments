@@ -1,0 +1,13 @@
+# Minimal dependencies for basic podcast translation (without voice cloning)
+requests>=2.25.0
+openai-whisper>=20231117
+gtts>=2.3.0
+pydub>=0.25.1
+torch>=2.0.0
+torchaudio>=2.0.0
+numpy>=1.21.0,<1.25.0
+PyYAML>=6.0
+tqdm>=4.64.1
+
+# Windows compatibility fix
+backports.tarfile>=1.0.0 
